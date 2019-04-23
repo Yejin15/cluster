@@ -13,11 +13,10 @@ with open('/Users/maeg/PycharmProjects/fisrtApp/Total_labels/long_sample.json') 
     X = pd.DataFrame.fillna(X, value=0)
     X_out = pd.DataFrame.to_string(X)
 
-    model = clu.spectral_clustering(X, n_clusters=cluster)
+    model = clu.spectral_clustering(n_clusters=cluster).fit(X)
 
-    result=pd.DataFrame(X[0])
-
-    result[0] = model[1]
+    result = pd.DataFrame(X[0])
+    result[0] = model.labels_
     print(result)
     result.to_csv('/Users/maeg/PycharmProjects/fisrtApp/result/spec_sample.csv')
 
