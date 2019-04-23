@@ -13,7 +13,7 @@ Alley,0
 Ancient history,0
 Antique,0
 Arch,0
-Architecture,2
+Architecture,3
 Arm,0
 Art,0
 Artwork,0
@@ -26,7 +26,7 @@ Baked goods,0
 Barechested,0
 Beanie,0
 Beard,0
-Beauty,0
+Beauty,2
 Berry,0
 Black hair,0
 Black-and-white,0
@@ -43,7 +43,7 @@ Breakfast sandwich,0
 Bridge,0
 Bronze sculpture,0
 Brunch,0
-Building,2
+Building,3
 Bulldog,0
 Bun,0
 California-style pizza,0
@@ -57,12 +57,12 @@ Ceiling,0
 Chest,0
 Child,0
 Christmas tree,0
-City,2
+City,3
 Cityscape,0
 Classic cocktail,0
 Classical architecture,0
 Close-up,0
-Cloud,0
+Cloud,2
 Cocktail,0
 Collection,0
 Column,0
@@ -72,14 +72,14 @@ Conifer,0
 Cool,0
 Cosmetics,0
 Courthouse,0
-Cuisine,3
+Cuisine,1
 Daiquiri,0
 Darkness,0
 Daylighting,0
 Daytime,0
 Design,0
 Dessert,0
-Dish,3
+Dish,1
 Dock,0
 Document,0
 Dog,0
@@ -92,13 +92,13 @@ Electronic device,0
 Electronics,0
 Evening,0
 Event,0
-Eye,0
+Eye,2
 Eye shadow,0
 Eyebrow,0
 Eyelash,0
 Eyewear,0
-Facade,2
-Face,0
+Facade,3
+Face,2
 Facial expression,0
 Facial hair,0
 Family car,0
@@ -116,17 +116,17 @@ Floor,0
 Flooring,0
 Flower,0
 Font,0
-Food,3
+Food,1
 Footwear,0
 Forest,0
 Formal wear,0
-Freezing,1
+Freezing,2
 French bulldog,0
 Fried food,0
 Frozen dessert,0
 Full-size car,0
 Fun,0
-Fur,0
+Fur,2
 Furniture,0
 Gadget,0
 Garnish,0
@@ -135,14 +135,14 @@ Gesture,0
 Glasses,0
 Graffiti,0
 Grove,0
-Hair,0
+Hair,2
 Hairstyle,0
 Hall,0
 Hamburger,0
 Hand,0
 Happy,0
 Harbor,0
-Head,0
+Head,2
 Headgear,0
 Historic site,0
 History,0
@@ -156,7 +156,7 @@ Human body,0
 Human settlement,0
 Ice,0
 Infrastructure,0
-Ingredient,3
+Ingredient,1
 Interior design,0
 Iron,0
 Italian food,0
@@ -164,7 +164,7 @@ Joint,0
 Juice,0
 Junk food,0
 Kids' meal,0
-Landmark,2
+Landmark,3
 Lawn ornament,0
 Leaf,0
 Leaf vegetable,0
@@ -214,7 +214,7 @@ Neighbourhood,0
 Night,0
 Non-alcoholic beverage,0
 Nonbuilding structure,0
-Nose,0
+Nose,2
 Ocean,0
 Orange,0
 Organ,0
@@ -227,7 +227,7 @@ Pedestrian,0
 People,0
 Photo shoot,0
 Photograph,0
-Photography,0
+Photography,2
 Physical fitness,0
 Picture frame,0
 Pier,0
@@ -242,7 +242,7 @@ Plaza,0
 Plush,0
 Pond,0
 Potato bread,0
-Produce,3
+Produce,1
 Property,0
 Public space,0
 Public transport,0
@@ -270,14 +270,14 @@ Shoulder,0
 Shrine,0
 Side dish,0
 Sitting,0
-Skin,0
-Sky,2
+Skin,2
+Sky,3
 Skyline,0
 Slider,0
 Smile,0
 Snapshot,0
 Snout,0
-Snow,1
+Snow,2
 Sport utility vehicle,0
 Sporting Group,0
 Spring,0
@@ -314,15 +314,15 @@ Tourism,0
 Tourist attraction,0
 Tower,0
 Tower block,0
-Town,2
+Town,3
 Town square,0
 Toy,0
 Transport,0
-Tree,1
+Tree,2
 Trunk,0
 Twig,0
 Uniform,0
-Urban area,2
+Urban area,3
 Vacation,0
 Vegetarian food,0
 Vegetation,0
@@ -341,7 +341,7 @@ Watercraft,0
 Waterfall,0
 Waterway,0
 Window,0
-Winter,1
+Winter,2
 Winter storm,0
 Woody plant,0
 Working animal,0
