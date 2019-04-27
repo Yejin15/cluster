@@ -1,6 +1,5 @@
 import json
 import sklearn.cluster as clu
-import numpy as np
 import pandas as pd
 
 cluster = 10
@@ -12,6 +11,8 @@ with open('/Users/maeg/PycharmProjects/fisrtApp/Total_labels/Total_labels_short.
     X = pd.DataFrame.drop(X, ['name'])
     X = pd.DataFrame.fillna(X, value=0)
     X_out = pd.DataFrame.to_string(X)
+
+    print("before clustering")
 
     kmeans = clu.k_means(X, n_clusters=cluster)
 

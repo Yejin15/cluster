@@ -1,21 +1,33 @@
 import json
 import sklearn.cluster as clu
 import pandas as pd
-
+import time
+start = time.time()
 cluster = 10
 
 with open('/Users/maeg/PycharmProjects/fisrtApp/Total_labels/Total_labels_short.json') as json_file:
     json_data = json.load(json_file)
+    print('loaded')
+    print(time.time() - start)
     X = pd.DataFrame.from_records(json_data)
+    print('1')
+    print(time.time() - start)
     X = pd.DataFrame.transpose(X)
+    print('2')
+    print(time.time() - start)
     X = pd.DataFrame.drop(X, ['name'])
+    print('3')
+    print(time.time() - start)
     X = pd.DataFrame.fillna(X, value=0)
-    X_out = pd.DataFrame.to_string(X)
+    X = X.astype('bool')
 
-    model = clu.SpectralClustering(n_clusters=cluster).fit(X)
+    print("before clustering")
+    print(time.time() - start)
+
+
+    model = clu.MiniBatchKMeans(n_clusters=cluster).fit(X)
 
     result = pd.DataFrame(X[0])
     result[0] = model.labels_
     print(result)
-    result.to_csv('/Users/maeg/PycharmProjects/fisrtApp/result/spectral.csv')
-
+    result.to_csv('/Users/maeg/PycharmProjects/fisrtApp/result/MinibatchKmeans.csv')
