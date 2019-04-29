@@ -24,10 +24,30 @@ with open('/Users/maeg/PycharmProjects/fisrtApp/Total_labels/Total_labels_short.
     print("before clustering")
     print(time.time() - start)
 
-
-    model = clu.MiniBatchKMeans(n_clusters=cluster).fit(X)
+    model = clu.SpectralClustering(n_clusters=cluster).fit(X)
 
     result = pd.DataFrame(X[0])
     result[0] = model.labels_
     print(result)
-    result.to_csv('/Users/maeg/PycharmProjects/fisrtApp/result/MinibatchKmeans.csv')
+    result.to_csv('/Users/maeg/PycharmProjects/fisrtApp/result/spectral.csv')
+
+    model = clu.affinity_propagation(n_clusters=cluster).fit(X)
+
+    result = pd.DataFrame(X[0])
+    result[0] = model.labels_
+    print(result)
+    result.to_csv('/Users/maeg/PycharmProjects/fisrtApp/result/affinity.csv')
+
+    model = clu.linkage_tree(X, n_clusters=cluster)
+
+    result = pd.DataFrame(X[0])
+    result[0] = model.labels_
+    print(result)
+    result.to_csv('/Users/maeg/PycharmProjects/fisrtApp/result/linkage.csv')
+
+    model = clu.MiniBatchKMeans( n_clusters=cluster).fit(X)
+
+    result = pd.DataFrame(X[0])
+    result[0] = model.labels_
+    print(result)
+    result.to_csv('/Users/maeg/PycharmProjects/fisrtApp/result/Minibatch.csv')
